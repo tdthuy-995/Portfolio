@@ -19,17 +19,13 @@
         }
 
         .project-info {
+            flex-grow: 1; /* Allow project info to grow and fill remaining space */
             padding-left: 10px; /* Add padding to the left of the project info */
         }
 
         .project-image {
-            flex: 0 0 300px; /* Set a fixed width for the image box */
+            flex: 0 0 300px; /* Fix image size */
             margin-right: 20px; /* Add margin to the right of the image */
-        }
-        
-        .project-image img {
-            max-width: 100%; /* Ensure image doesn't exceed container width */
-            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
