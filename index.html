@@ -21,9 +21,15 @@
         .project-info {
             padding-left: 10px; /* Add padding to the left of the project info */
         }
+	    
+	.project-image {
+            flex: 0 0 auto; /* Keep the image box size fixed */
+            margin-right: 10px; /* Add margin to the right of the image */
+        }
 
         .project-image img {
-            margin-right: 10px; /* Add margin to the right of the image */
+            max-width: 100%; /* Ensure image doesn't exceed its container */
+            height: auto; /* Maintain aspect ratio */
         }
     </style>
 </head>
@@ -125,6 +131,7 @@ problem-solving skills to help guide business decisions on data-related insights
                 <div class="project-image">
                     <img src="images/worldhappinessreport2019-1980x660.jpg" height="300" />
                 </div>
+		<!-- End .project-image -->    
                 <div class="project-info">
                     <h3>World Happiness Reports Analysis</h3>
                     <p>
